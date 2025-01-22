@@ -13,7 +13,7 @@ Este proyecto implementa un reloj con funcionalidades adicionales como cronómet
 ## Descripción de Archivos
 
 - `alarmas/alarmas.ino`: Código fuente para la gestión de alarmas.
-- `Libreria_notasMusicales/notasMusicales.cpp` y `Libreria_notasMusicales/notasMusicales.h`: Implementación de la librería para reproducir notas musicales.
+- `Libreria_notasMusicales/notasMusicales.cpp` y `Libreria_notasMusicales/notasMusicales.h`: Implementación de la librería para reproducir la nota musical de la pantera Rosa.
 - `Archivos_RtcByMakuma`: Libreria Rtc by makuma, se ha implementado 2 metodos mas (Descarga la libreria y solo remplaza los archivos)
 - `principal/principal.ino`: Código fuente principal que incluye funcionalidades de reloj, cronómetro y temporizador.
 
@@ -35,10 +35,16 @@ Permite configurar hasta tres alarmas con días específicos y horas determinada
 
 - Arduino
 - Módulo RTC DS1302
-- Pantalla LCD I2C
+- Pantalla LCD I2C 20X4
 - Buzzer
 - Botones
 - Jumpers o cables
+
+>[!NOTE]
+> Puedes usar cualquier Arduino, ya sea nano, uno, mega, etc.
+
+>[!IMPORTANT]
+>Es importante que se use el modulo RtcDS1302, ya que con otro modulo, los codigos no funcionaran
 
 ## Librerías Utilizadas
 
