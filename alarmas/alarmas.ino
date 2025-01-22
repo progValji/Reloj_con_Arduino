@@ -56,25 +56,6 @@ class Alarma{
       return String(buffer);
     }
 
-    /*int8_t* getDias(){
-      int8_t size = this->diasHabiles();
-      Serial.println(size);
-      if(size <= 0)
-        return NULL;
-      int8_t* arrayDias = (int8_t*) malloc(size * sizeof(int8_t)); //reservando memoria
-      if(arrayDias != NULL){ //asegurando
-        for(size_t i = 0; i<tamanio2; i++){
-          if(dias[i] != 0){
-            arrayDias = dias[i];
-            Serial.print(dias[i]);
-          }
-        }
-        Serial.println();
-        Serial.println("esos son los dias habiles"); 
-      }
-      return arrayDias;
-    }*/
-
     String getDias(){
       int8_t band = 0;
       String resultado = "NI";
